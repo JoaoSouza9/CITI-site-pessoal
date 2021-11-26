@@ -1,0 +1,25 @@
+footer{
+  display: flex;
+  flex-direction: column;
+}
+footer section{
+  background-color: #353535;
+  border-radius: 10px;
+  padding: 30px 15px;
+  margin-bottom: 10px;
+}
+
+footer h4{
+  text-align: left;
+  line-height: 32px;
+  font-size: 24px;
+}
+
+footer p{
+  text-align: center;
+}
+footer section div{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}

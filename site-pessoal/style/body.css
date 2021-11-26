@@ -1,0 +1,95 @@
+html{
+  font-size: 16px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #141414;
+  color: #fff;
+  margin: 0px;
+  font-family:"Roboto",sans-serif;
+  font-weight: 400;
+}
+h2{
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+}
+main{
+  display: flex;
+}
+article{
+  max-width: 1000px;
+  width: 100%;
+  margin: 80px 0;
+}
+article section{
+  max-width: 820px;
+  width: 100%;
+  flex-direction: column;
+}
+article section div p{
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #E9E9E9;
+  margin-bottom: 30px;
+  width: 100%;
+}
+article section div h2{
+  font-size: 24px;
+  font-style: bold;
+  color: #E9E9E9;
+  font-weight: 30px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+article section div h3{
+  font-size: 20px;
+  font-style: bold;
+  color: #E9E9E9;
+  font-weight: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.aboutme_content{
+  display: flex;
+}
+.aboutme_content p{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 30px;
+  text-align: justify;
+}
+
+.projetos{
+  display: flex;
+  flex-direction: row;
+}
+.projeto{
+  width: 100%;
+  text-align: center;
+}
+.projetos .projeto a{
+  text-decoration: none;
+}
+.projeto img{
+  width: 100px;
+  transition-duration: 0.5s;
+}
+
+.projeto img:hover{
+  width: 125px;
+}
+.description{
+  font-size: 20px;
+  font-style: bold;
+  color: #E9E9E9;
+  font-weight: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+}
